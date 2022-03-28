@@ -4,7 +4,7 @@ public class Unit {
     static int a;
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a single digit number");
+        System.out.println("Enter 1 or 10 or 100 or 1000");
         a = sc.nextInt();
         ten();
     }
