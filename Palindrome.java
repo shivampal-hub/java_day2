@@ -5,7 +5,7 @@ public class Palindrome {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number to reverse");
+        System.out.println("Enter a number to find Palindrome");
         n = sc.nextInt();
         original = n;
         reverse();
